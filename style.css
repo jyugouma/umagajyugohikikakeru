@@ -1,0 +1,210 @@
+*{
+  background-color: aquamarine;
+}
+h1#title{
+  opacity: 0.5;
+  width: 100%;
+  transition: color .8s;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+h1#title:hover{
+  opacity: 1.0;
+  border-style: outset;
+  background-color: purple;
+  color: white;
+  transition: color .8s;
+}
+
+h2#about{
+  position: static;
+  border-style: inset;
+  background-color: whitesmoke;
+  transition: color .2s;
+  width: 100%;
+  text-align: center;
+}
+h2#about:hover{
+  border-style: outset;
+  background-color: purple;
+  color: white;
+}
+
+p#texts{
+  column-count: 2;
+  column-fill: balance-all;
+}
+
+h4#like{
+  border-style: inset;
+  background-color: whitesmoke;
+  transition: color .2s;
+  width: 100%;
+  text-align: center;
+}
+h4#like:hover{
+  border-style: outset;
+  background-color: purple;
+  color: white;
+}
+#likes{
+ text-align: center;
+ background-color: orange;
+ width: 300px;
+}
+#text{
+  display: inline;
+}
+#bass{
+  position: relative;
+  left: 10px;
+}
+
+
+#pro{
+  position: relative;
+  left: 39%;
+  bottom: 104px;
+}
+#game{
+  position: relative;
+  left: 80%;
+  bottom: 255px;
+}
+
+h2#skills{
+  border-style: inset;
+  background-color: whitesmoke;
+  transition: color .2s;
+  width: 100%;
+  text-align: center;
+}
+h2#skills:hover{
+  border-style: outset;
+  background-color: purple;
+  color: white;
+}
+
+h2#contact{
+  border-style: inset;
+  background-color: whitesmoke;
+  transition: color .2s;
+  width: 100%;
+  text-align: center;
+}
+h2#contact:hover{
+  border-style: outset;
+  background-color: purple;
+  color: white;
+}
+
+h2#home:horver{
+  color: aquamarine;
+}
+
+#home{
+  
+  text-align: center;
+ 
+}
+
+
+a[href$="top"]{
+  opacity: 0;
+  transition: .3s;
+}
+a[href$="top"]:hover{
+  opacity: 1;
+  color: red;
+  background-color: bisque;
+}
+button{
+  transition: .3s;
+}
+button:hover{
+  color: red;
+  background-color: bisque;
+}
+#backbutton{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+a[href$="mailto:9bda1219@mail.u-tokai.ac.jp?"]{
+  transition: .5s;
+}
+a[href$="mailto:9bda1219@mail.u-tokai.ac.jp?"]:hover{
+  color: red;
+}
+
+.menu{
+  border-style: solid;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+}
+
+a#menubar{
+  color: blue;
+  background-color: lightgoldenrodyellow;
+  transition: .3s;
+  margin: 20px;
+}
+a#menubar:hover{
+  color: red;
+
+}
+.bar{
+  border-width: .5px;
+  border-style: solid;
+
+}
+
+
+.data1 {
+  background:lime;
+  border-width: .5px;
+  border-style: solid;
+  border-color: black;
+  transition: .3s;
+} 
+
+.data2 {
+  background:lightcyan;
+  border-width: .5px;
+  border-style: solid;
+  border-color: black; 
+  transition: .3s;
+  }
+
+ 
+.data3 {
+  background:peachpuff;
+  border-width: .5px;
+  border-style: solid;
+  border-color: black;
+  transition: .3s;
+}
+ 
+.data4 {
+  background: yellow;
+  border-width: .5px;
+  border-style: solid;
+  border-color: black;
+  transition: .3s;
+  }
+ 
+.data5 {
+  background: lightpink;
+  border-width: .5px;
+  border-style: solid;
+  border-color: black;
+  transition: .3s;
+  }
+ 
+
+ .wor{
+   position: absolute;
+ }
