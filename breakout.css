@@ -1,0 +1,32 @@
+body {
+  background-color: wheat;
+}
+
+h1 {
+  color: brown;
+  font-size: 36px;
+}
+
+.center {
+  text-align: center;
+}
+
+#start {
+  padding: 15px;
+  outline: none;
+  border-radius: 20px;
+}
+
+#reset{
+  padding:15px;
+  outline: none;
+  border-radius: 20px;
+}
+
+
+
+#canvas {
+  border: 1px solid white;
+  background-color: black;
+}
+
